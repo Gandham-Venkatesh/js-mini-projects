@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Chitra Lehari</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="images/logo.jpg">
+</head>
+
+  <body>
+
+      <div class="sidebar">
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo.jpg" alt="Logo" />
+          </a>
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="fa fa-home"></span>
+                <span>Home</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="fa fa-search"></span>
+                <span>Search</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="fa fas fa-book"></span>
+                <span>Your Library</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="navigation">
+          <ul>
+            <li>
+              <a href="#">
+                <span class="fa fas fa-plus-square"></span>
+                <span>Create Playlist</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <span class="fa fas fa-heart"></span>
+                <span>Liked Songs</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="policies">
+          <ul>
+            <li>
+              <a href="#">Cookies</a>
+            </li>
+            <li>
+              <a href="#">Privacy</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="topbar">
+          <div class="prev-next-buttons">
+            <button type="button" class="fa fas fa-chevron-left"></button>
+            <button type="button" class="fa fas fa-chevron-right"></button>
+          </div>
+
+          <div class="navbar">
+            <ul>
+              <li>
+                <a href="#">Premium</a>
+              </li>
+              <li>
+                <a href="#">Support</a>
+              </li>
+              <li>
+                <a href="#">Download</a>
+              </li>
+              <li class="divider">|</li>
+              <li>
+                <a href="https://accounts.spotify.com/en/login">Sign Up</a>
+              </li>
+            </ul>
+            <a href="https://accounts.spotify.com/en/login"><button type="button">Log In</button></a>
+          </div>
+        </div>
+
+        <div class="spotify-playlists">
+          <h2>Chitra lehari's Melodies</h2>
+
+          <div class="list">
+            <div class="item">
+              <img src="images/e1.jpg"/>
+<audio id="audio_play1">
+    <source src="songs/one.m4a" type="audio/mpeg">
+</audio>
+              
+              <div class="play">
+                <span class="fa fa-play" onclick="toggleAudio('audio_play1');" ></span>
+              </div>
+              <h4>Kammani E Prema</h4>
+              <p>A song shot in Guna cave by kamal sir..</p>
+            </div>
+
+            <div class="item">
+               <img src="songs/e2.jpg"  />
+              <audio id="audio_play2">
+                  <source src="songs/two.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play" onclick="toggleAudio('audio_play2');"></span>
+              </div>
+              <h4>Andhalalo Maho Mahodayam</h4>
+              <p>A song that takes you to the another universe...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e3.jpg"  />
+              <audio id="audio_play3">
+                  <source src="songs/three.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play3');"></span>
+              </div>
+              <h4>Jabilli Kosam</h4>
+              <p>All time favorite song for love failures...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e4.jpg"  />
+              <audio id="audio_play4">
+                  <source src="songs/four.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play" onclick="toggleAudio('audio_play4');"></span>
+              </div>
+              <h4>Mate Rani</h4>
+              <p>A song that is only written for SPB garu...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e51.jpg"  />
+              <audio id="audio_play5">
+                  <source src="songs/five.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play" onclick="toggleAudio('audio_play5');"></span>
+              </div>
+              <h4>Nuvvakaduntey</h4>
+              <p>A great love story and highly rated movie...</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="spotify-playlists">
+          <h2>Devotional</h2>
+          <div class="list">
+            <div class="item">
+               <img src="images/e6.jpg"  />
+              <audio id="audio_play6">
+                  <source src="songs/six.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play6');"></span>
+              </div>
+              <h4>Vinnapalu vinavale</h4>
+              <p>Annamayya and SPB both went on god mode...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e7.jpg"  />
+              <audio id="audio_play7">
+                  <source src="songs/seven.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play7');"></span>
+              </div>
+              <h4>Antha Ramamayam</h4>
+              <p>Sri Ramadasu gari kavitalu and Nargarjun acting verelevel asalu...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e8.jpg"  />
+              <audio id="audio_play8">
+                  <source src="songs/e8.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play" onclick="toggleAudio('audio_play8');"></span>
+              </div>
+              <h4>Andhari Bandhuvaya</h4>
+              <p>A Movie were all songs went on god mode and lyrics ...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e9.jpg"  />
+              <audio id="audio_play9">
+                  <source src="songs/n9.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play" onclick="toggleAudio('audio_play9');"></span>
+              </div>
+              <h4>Rama Rama Raghu Rama</h4>
+              <p>All time favorite movie from nithin...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e5.jpg"  />
+              <audio id="audio_play10">
+                  <source src="songs/ten.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play10');"></span>
+              </div>
+              <h4>Mukunda Mukunda</h4>
+              <p>All songs and kamal sir acting vere level asalu....</p>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="spotify-playlists">
+          <h2>Rock</h2>
+          <div class="list">
+            <div class="item">
+               <img src="images/e112.jpg"  />
+              <audio id="audio_play11">
+                  <source src="songs/e11.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play11');"></span>
+              </div>
+              <h4>My name is Billa</h4>
+              <p>This song makes you feel like a hero...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e12.jpg"  />
+              <audio id="audio_play12">
+                  <source src="songs/t12.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play12');"></span>
+              </div>
+              <h4>Yevvarra Manaki</h4>
+              <p>A song with great lyrics and facts....
+            </div>
+
+            <div class="item">
+               <img src="images/e13.jpg"  />
+              <audio id="audio_play13">
+                  <source src="songs/t13.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play13');"></span>
+              </div>
+              <h4>Fear</h4>
+              <p>This song is a slow poison...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e14.jpg"  />
+              <audio id="audio_play14">
+                  <source src="songs/f14.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play14');"></span>
+              </div>
+              <h4>Spirit of Jersey</h4>
+              <p>Best Motivation song ever...</p>
+            </div>
+
+            <div class="item">
+               <img src="images/e15.jpg"  />
+              <audio id="audio_play15">
+                  <source src="songs/f15.m4a" type="audio/mpeg">
+              </audio>
+              <div class="play">
+                <span class="fa fa-play"onclick="toggleAudio('audio_play15');"></span>
+              </div>
+              <h4>Gajuvaka Pilla</h4>
+              <p>E Song ki Evarina dance veyyalsindhe...</p>
+            </div>
+
+            
+
+            
+
+            
+            </div>
+          </div>
+
+          <hr>
+        </div>
+
+       
+      </div>
+
+      <script
+        src="https://kit.fontawesome.com/23cecef777.js"
+        crossorigin="anonymous"
+      ></script>
+    <script>
+        function toggleAudio(audi) {
+            const audioElement = document.getElementById(audi);
+            if (audioElement.paused) {
+                audioElement.play();
+            } else {
+                audioElement.pause();
+            }
+        }
+    </script>
+  </body>
+
+</html>

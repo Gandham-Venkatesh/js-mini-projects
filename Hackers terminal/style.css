@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    width: 60vw;
+    /* height: 40vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 20px auto;
+    gap: 20px;
+    /* background-color: rgb(254 255 235); */
+    background-color: black;
+    background-repeat: repeat;
+}
+body{
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+.logo>img{
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 40px;
+    
+}
+.info{
+    font-size: 16px;
+    color: rgb(249, 249, 249);
+    text-align: start;
+    /* margin: 20px; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.com{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+input{
+    padding: 15px 25px;
+    margin-right: 20px;
+    border-radius: 40px;
+
+
+}
+button{
+    padding: 12px 40px;
+    border-radius: 40px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.con>h1{
+    font-size: 35px;
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 20px;
+}
+.info>p{
+    font-size: 18px;
+    color:rgb(255, 255, 255);
+    text-align: start;
+    margin-bottom: 20px;
+}
+.info>h3{
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    text-align: start;
+    /* margin-bottom: 20px; */
+}
+
+.tog{
+    background-color: red;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+.console{
+    width: 60vw;
+    /* height: 50vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: start;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 50px auto;
+    gap: 20px;
+    background-color: black;
+    
+   
+}
+.para{
+    color:#008000;
+    padding: 5px 20px;
+    font-size: 30px;
+
+}
+.btn{
+   
+align-self: center;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+.error::placeholder{
+    
+    color: red;
+    
+}
+.blink{
+    color: black;
+}

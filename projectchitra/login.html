@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="images/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <audio id="audi" preload="auto" ><source src="songs/start.mp3" type="audio/mpeg"></audio>
+    <div class="con">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="">
+        </div>
+        <div class="txt">
+            Where words fail,Chitra Lehari's melodies speak
+           
+        </div>
+        <div class="btn"  onclick="playSongAndRedirect();">
+            <button>Get Started</button>
+        </div>
+    </div>
+    <script>
+        function playSongAndRedirect() {
+            const audioElement = document.getElementById('audi');
+            audioElement.play();
+
+            // Listen for the 'ended' event to redirect after the song finishes
+            audioElement.addEventListener('ended', function () {
+                window.location.href = 'index.html';
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <input type="text" id="password" placeholder="Your password will be visible here" readonly>
+
+        <div class="options">
+            <label>
+                <input type="radio" name="passwordType" value="simple" checked> Simple Password
+            </label>
+            <label>
+                <input type="radio" name="passwordType" value="strong"> Strong Password
+            </label>
+            <label>
+                <input type="radio" name="passwordType" value="funny"> Funny Password
+            </label>
+        </div>
+        <button id="generateBtn" onclick="generate()">Generate Password</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
