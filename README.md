@@ -65,11 +65,14 @@ A minimalist To-Do list to add and delete tasks. Helps in learning DOM manipulat
 
 Place all screenshots inside the `assets` folder and link them like below:
 
-```markdown
+
 ![Hacker Terminal Screenshot](./assets/hacker-terminal.png)
 ![Password Generator Screenshot](./assets/password-generator.png)
 ![Project Chitra Screenshot](./assets/project-chitra.png)
 ![Todo App Screenshot](./assets/todo-app.png)
+
+
+---
 
 ## 🚀 How to Run
 
